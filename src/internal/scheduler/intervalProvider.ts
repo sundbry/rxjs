@@ -1,4 +1,4 @@
-type SetIntervalFunction = (handler: () => void, timeout?: number, ...args: any[]) => number;
+type SetIntervalFunction = (handler: () => void, timeout?: number, ...args: any[]) => unknown;
 type ClearIntervalFunction = (handle: number) => void;
 
 interface IntervalProvider {

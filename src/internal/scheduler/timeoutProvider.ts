@@ -1,4 +1,4 @@
-type SetTimeoutFunction = (handler: () => void, timeout?: number, ...args: any[]) => number;
+type SetTimeoutFunction = (handler: () => void, timeout?: number, ...args: any[]) => unknown;
 type ClearTimeoutFunction = (handle: number) => void;
 
 interface TimeoutProvider {
